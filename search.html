@@ -1,0 +1,207 @@
+ <html>
+	<head>
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse">
+		  <div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="index.html">B.I.M.S.</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			  <ul class="nav navbar-nav">
+				<li><a href="index.html">Profile <span class="sr-only">(current)</span></a></li>
+				<li><a href="it_staff.html">IT Staff</a></li>
+				<li><a href="dept_coordinator.html">Department Coordinator</a></li>
+				<li><a href="admin.html">Admin</a></li>
+			  </ul>
+			  <ul class="nav navbar-nav navbar-right">
+			  <li class="active"><a href="search.html">Search</a></li>
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Username<span class="caret"></span></a>
+				  <ul class="dropdown-menu" role="menu">
+					<li><a href="#">Support</a></li>
+					<li><a href="#">About B.I.M.S.</a></li>
+					<li class="divider"></li>
+					<li><a href="#">Sign out</a></li>
+				  </ul>
+				</li>
+			  </ul>
+			</div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+		<h1>Search</h1>
+		<div class="list-group">
+			<a href="#" class="list-group-item">
+				<h4 class="list-group-item-heading">Assets</h4>
+				<div class="row">
+					<div class="col-lg-8">
+						<div class="input-group">
+							<span class="input-group-btn">
+								<button class="btn btn-default" type="button">Search</button>
+							</span>
+							<input type="text" class="form-control" placeholder="Search Asset Name...">
+						</div><!-- /input-group -->
+					</div>
+
+				</div>		
+				
+				<!-- Table -->
+				<table class="table table-striped">
+					       <thead>
+							  <tr>
+								<th>Asset Id</th>
+								<th>Asset Name</th>
+								<th>Model</th>
+								<th>Type</th>
+								<th>Manufacturer</th>
+								<th>Vendor</th>
+								<th>Purchased Date</th>
+								<th>Assigned Date</th>
+								<th>Assigned To</th>
+								<th>Last Modified By</th>
+							  </tr>
+							</thead>
+					        <tbody>
+								<tr>
+									<td><select>
+										<option>All</option>
+										  <option>1-500</option>
+										  <option>501-1000</option>
+										  <option>501-1000</option>
+										  <option>1001-1500</option>
+										  <option>1501-2000</option>
+										  <option>2001-2500</option>
+										  <option>2501-3000</option>
+									</select></td>
+									<td></td>
+									<td><select>
+										<option>All</option>
+										  <option>#</option>
+										  <option>a-h</option>
+										  <option>i-p</option>
+										  <option>q-z</option>
+									</select></td>
+									<td><select>
+										<option >All</option>
+										  <option >Laptops</option>
+										  <option >Desktops</option>
+										  <option >Small Electronics</option>
+										  <option >Monitors</option>
+										  <option >Hard Disk</option>
+										  <option >Cords</option>
+									</select></td>
+									<td><select>
+										<option >All</option>
+										  <option >Apple</option>
+										  <option >Dell Computers</option>
+										  <option >Dell Small Electronics</option>
+										  <option >HP Computers</option>
+										  <option >HP Electronics</option>
+										  <option >Intel</option>
+										  <option >Samsung</option>
+										  <option >Western Digital</option>
+									</select></td>
+									<td><select>
+										<option >All</option>
+										  <option >BestBuy</option>
+										  <option >MicroCenter</option>
+										  <option >RadioShack</option>
+										  <option >Staples</option>
+										  <option >WalMart</option>
+									</select></td>
+									<td><input type="datetime" name="Purchase_Date"></td>
+									<td><input type="datetime" name="Assigned_Date"></td>
+									<td><select>
+										<option >All</option>
+										  <option >Bob Jones</option>
+										  <option >Randy Thomas</option>
+										  <option >Paul Bacon</option>
+										  <option >Tim May</option>
+										  <option >James Brown</option>
+									</select></td>
+									<td><select>
+										<option >All</option>
+										  <option >Spencer Lang</option>
+										  <option >John Day</option>
+										</select></td>
+								</tr>
+								<tr>
+									<td>231</td>
+									<td>Dell 32" Monitor</td>
+									<td>A3401</td>
+									<td>Monitor</td>
+									<td>Dell Computers</td>
+									<td>BestBuy Commerce</td>
+									<td>01/23/2013</td>
+									<td>03/11/2013</td>
+									<td>Bob Jones</td>
+									<td>Spencer Lang</td>
+								</tr>
+								<tr>
+									<td>3241</td>
+									<td>Dell XPS Laptop</td>
+									<td>m6000</td>
+									<td>Laptop</td>
+									<td>Dell Computers</td>
+									<td>BestBuy Commerce</td>
+									<td>05/19/2012</td>
+									<td>01/04/2013</td>
+									<td>Randy Thomas</td>
+									<td>John Day</td>
+								</tr>
+								<tr>
+									<td>19</td>
+									<td>Dell Mouse</td>
+									<td>200-15</td>
+									<td>Mouse</td>
+									<td>Dell Small Electronics</td>
+									<td>Staples</td>
+									<td>06/21/2010</td>
+									<td>04/23/2011</td>
+									<td>Bob Jones</td>
+									<td>Spencer Lang</td>
+								</tr>
+								<tr>
+									<td>231</td>
+									<td>HP </td>
+									<td>A3401</td>
+									<td>Monitor</td>
+									<td>HP Electronics</td>
+									<td>Staples</td>
+									<td>01/23/2013</td>
+									<td>03/11/2013</td>
+									<td>Bob Jones</td>
+									<td>Spencer Lang</td>
+								</tr>
+								<tr>
+									<td>9342</td>
+									<td>MacBook Pro</td>
+									<td>C23GA</td>
+									<td>Laptop</td>
+									<td>Apple</td>
+									<td>BestBuy Commerce</td>
+									<td>07/13/2014</td>
+									<td>08/02/2014</td>
+									<td>Paul Bacon</td>
+									<td>Spencer Lang</td>
+								</tr>
+							</tbody>
+				</table>
+		</div>	
+
+
+		
+	</body>
+</html>
