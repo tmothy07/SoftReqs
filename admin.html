@@ -42,5 +42,140 @@
 		  </div><!-- /.container-fluid -->
 		</nav>
 		<h1>Administrator Page</h1>
+		<h4>Manage User Roles</h4>
+		<input type="checkbox" checked /> Employee<br />
+		<input type="checkbox" checked /> Department Coordinator<br />
+		<input type="checkbox" checked /> IT Staff<br />
+		<h4>Backup database</h4>
+		<form style="display:inline">
+			Backup database every: <select>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+				<option>9</option>
+			</select> weeks on 
+			<select>
+				<option>Sundays</option>
+				<option>Mondays</option>
+				<option>Tuesdays</option>
+				<option>Wednesdays</option>
+				<option>Thursdays</option>
+				<option>Fridays</option>
+				<option>Saturdays</option>
+			</select>
+		</form>
+		(<a href="#">Manually backup database</a>)
+		<br />
+		<br />
+		<h4>Email notifications</h4>
+		<input type="checkbox" /> To user when asset is assigned<br />
+		<input type="checkbox" /> To user when asset is reassigned<br />
+		<input type="checkbox" /> To department coordinator when asset is added to inventory<br />
+		<input type="checkbox" /> To IT staff when feedback is given<br />
+		<input type="checkbox" /> To IT staff when assets should be verified<br />
+		<br />
+		<button style="display: block" class="btn btn-sm btn-primary">Save settings</button>
+		
+		<hr />
+		
+		<h3 style="">Asset Types</h3><form style="display: inline; margin-right: 10px"><input type="text"/></form><button class="btn btn-sm btn-primary"><span>Add new</span></button>
+		<div style="width: 400px; margin-top: 10px;">
+			<ul class="list-group">
+				<li class="list-group-item">
+					Desktop Computer
+					<a href="#" style="float: right">
+						<span class="badge">
+							<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+						</span>
+					</a>
+				</li>
+				<li class="list-group-item">
+					Laptop Computer
+					<a href="#" style="float: right">
+						<span class="badge">
+							<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+						</span>
+					</a>
+				</li>
+				<li class="list-group-item">
+					Monitor
+					<a href="#" style="float: right">
+						<span class="badge">
+							<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+						</span>
+					</a>
+				</li>
+				<li class="list-group-item">
+					Printer
+					<a href="#" style="float: right">
+						<span class="badge">
+							<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+						</span>
+					</a>
+				</li>
+			    <li class="list-group-item">
+					Mouse
+					<a href="#" style="float: right">
+						<span class="badge">
+							<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+						</span>
+					</a>
+				</li>
+			    <li class="list-group-item">
+					Keyboard
+					<a href="#" style="float: right">
+						<span class="badge">
+							<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+						</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		
+		<hr />
+		
+		<h3 style="">Asset Models</h3><form style="display: inline; margin-right: 10px"><input type="text"/></form><button class="btn btn-sm btn-primary"><span>Add new</span></button>
+		<div style="width: 400px; margin-top: 10px;">
+			<ul class="list-group">
+				<li class="list-group-item">
+					Envy x360
+					<a href="#" style="float: right">
+						<span class="badge">
+							<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+						</span>
+					</a>
+				</li>
+				<li class="list-group-item">
+					Spectre x360
+					<a href="#" style="float: right">
+						<span class="badge">
+							<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+						</span>
+					</a>
+				</li>
+				<li class="list-group-item">
+					Dimension 4700
+					<a href="#" style="float: right">
+						<span class="badge">
+							<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+						</span>
+					</a>
+				</li>
+				<li class="list-group-item">
+					XPS 8700
+					<a href="#" style="float: right">
+						<span class="badge">
+							<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+						</span>
+					</a>
+				</li>
+			</ul>
+		</div>
 	</body>
 </html>
