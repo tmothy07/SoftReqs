@@ -41,12 +41,17 @@
 			</div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
 		</nav>
-		<h1>Administrator Page</h1>
-		<h4>Manage User Roles</h4>
+		<h2>Manage User Roles</h2>
 		<input type="checkbox" checked /> Employee<br />
 		<input type="checkbox" checked /> Department Coordinator<br />
 		<input type="checkbox" checked /> IT Staff<br />
-		<h4>Backup database</h4>
+		<br />
+		<button style="display: block" class="btn btn-sm btn-primary">Save settings</button>
+		<br />
+		
+		<hr />
+		
+		<h2>Backup database</h2>
 		<form style="display:inline">
 			Backup database every: <select>
 				<option>1</option>
@@ -59,7 +64,7 @@
 				<option>7</option>
 				<option>8</option>
 				<option>9</option>
-			</select> weeks on 
+			</select> week(s) on 
 			<select>
 				<option>Sundays</option>
 				<option>Mondays</option>
@@ -73,7 +78,12 @@
 		(<a href="#">Manually backup database</a>)
 		<br />
 		<br />
-		<h4>Email notifications</h4>
+		<button style="display: block" class="btn btn-sm btn-primary">Save settings</button>
+		<br />
+		
+		<hr />
+		
+		<h2>Email notifications</h2>
 		<input type="checkbox" /> To user when asset is assigned<br />
 		<input type="checkbox" /> To user when asset is reassigned<br />
 		<input type="checkbox" /> To department coordinator when asset is added to inventory<br />
@@ -81,10 +91,15 @@
 		<input type="checkbox" /> To IT staff when assets should be verified<br />
 		<br />
 		<button style="display: block" class="btn btn-sm btn-primary">Save settings</button>
+		<br />
 		
 		<hr />
 		
-		<h3 style="">Asset Types</h3><form style="display: inline; margin-right: 10px"><input type="text"/></form><button class="btn btn-sm btn-primary"><span>Add new</span></button>
+		<h2 style="">Asset Type Management</h2>
+		<form action="add_asset_type.html" style="display: inline">
+			<input type="submit" class="btn" type="button" value="Add Asset Type" />
+		</form>
+		
 		<div style="width: 400px; margin-top: 10px;">
 			<ul class="list-group">
 				<li class="list-group-item">
@@ -140,7 +155,11 @@
 		
 		<hr />
 		
-		<h3 style="">Asset Models</h3><form style="display: inline; margin-right: 10px"><input type="text"/></form><button class="btn btn-sm btn-primary"><span>Add new</span></button>
+		<h2 style="">Asset Model Management</h2>
+		<form action="add_asset_model.html">
+			<input class="btn" type="submit" value="Add Asset Model" />
+		</form>
+		
 		<div style="width: 400px; margin-top: 10px;">
 			<ul class="list-group">
 				<li class="list-group-item">
