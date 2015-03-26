@@ -48,9 +48,15 @@
 		        <ul>
 		        	<h4 class="list-group-item-heading">Asset Options</h4>
 				<li class="list-group-item">
-					<button class="btn" type="button">Add New Asset</button>
-					<button class="btn" type="button">Add New Asset Model</button>
-					<button class="btn" type="button">Update Existing Asset</button>
+												<form action="add_asset.html">
+								<input class="btn" type="submit" value="Add New Asset"></input>
+							</form>
+												<form action="delete_asset.html">
+								<input class="btn" type="submit" value="Delete Asset"></input>
+							</form>
+												<form action="update_asset.html">
+								<input class="btn" type="submit" value="Update Existing Asset"></input>
+							</form>
 				</li>
 			</ul>
 			</a>
@@ -60,8 +66,12 @@
 			<ul>
 				<h4 class="list-group-item-heading">Vendor Options</h4>
 				<li class="list-group-item">
-                			<button class="btn" type="button">Add Vendor</button>
-                			<button class="btn" type="button">Update Vendor</button>
+                										<form action="add_vendor.html">
+								<input class="btn" type="submit" value="Add Vendor"></input>
+							</form>
+                										<form action="update_vendor.html">
+								<input class="btn" type="submit" value="Update Vendor"></input>
+							</form>
 				</li>
 			</ul>
 			</a>
@@ -72,23 +82,21 @@
 	    		<a href="#" class="list-group-item">
 		        <ul>
 				<li class="list-group-item">
-					<button class="btn" type="button">Assign Asset</button>
-					<button class="btn" type="button">Reassign Asset</button>
-					<button class="btn" type="button">Remove Asset Assignment</button>
-					<button class="btn" type="button">Salvage Asset</button>
-					<button class="btn" type="button">View All Assigned Assets</button>
-				</li>
-			</ul>
-			</a>
-        	</div>
-        	
-        	<h2>Search</h2>
-		<div class="list-group">
-	    		<a href="#" class="list-group-item">
-		        <ul>
-				<li class="list-group-item">
-					<button class="btn" type="button">Specific Criteria Search</button>
-					<button class="btn" type="button">Dept. Date Range Search</button>
+												<form action="assign_asset.html">
+								<input class="btn" type="submit" value="Assign Asset"></input>
+							</form>
+												<form action="reassign_asset.html">
+								<input class="btn" type="submit" value="Re-assign Asset"></input>
+							</form>
+												<form action="remove_asset_assignment.html">
+								<input class="btn" type="submit" value="Remove Asset Assignment"></input>
+							</form>
+												<form action="salvage_asset.html">
+								<input class="btn" type="submit" value="Salvage Asset"></input>
+							</form>
+												<form action="view_all_asset.html">
+								<input class="btn" type="submit" value="View All Assigned Assets"></input>
+							</form>
 				</li>
 			</ul>
 			</a>
@@ -99,7 +107,9 @@
 			<a href="#" class="list-group-item">
 			<ul>
 				<li class="list-group-item">
-					<button class="btn" type="button">Verify User Assets</button>
+												<form action="verify_assets.html">
+								<input class="btn" type="submit" value="Verify User Assets"></input>
+							</form>
 				</li>
 			</ul>
 			</a>
